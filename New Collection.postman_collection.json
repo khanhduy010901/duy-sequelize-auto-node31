@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "9e258e14-30c5-4348-ad82-599d5cdd18ff",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27510532",
+		"_collection_link": "https://universal-rocket-735102.postman.co/workspace/Team-Workspace~9c61488c-0fae-433d-85b9-0fab4fb47628/collection/27510532-9e258e14-30c5-4348-ad82-599d5cdd18ff?action=share&creator=27510532&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "node31",
+			"item": [
+				{
+					"name": "user-like",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 1,\r\n    \"res_id\": 1\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/user/user-like",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"user",
+								"user-like"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user-rate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/user/user-rate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"user",
+								"user-rate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user-oder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/user/user-oder",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"user",
+								"user-oder"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

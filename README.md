@@ -1,0 +1,1 @@
+# duy-sequelize-auto-node31
